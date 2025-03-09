@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # YouMoney DevOps
 
 ## Описание
@@ -18,3 +19,6 @@
    ```bash
    git clone https://github.com/your-username/youmoney-devops.git
 
+=======
+# youmoney-devops
+>>>>>>> d61e384ced025261c758bbf43a589fd0352d0c12
