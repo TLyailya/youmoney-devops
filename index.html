@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учет доходов и расходов</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Личный кабинет: Учет доходов и расходов</h1>
+    
+    <h2>Доходы и Расходы</h2>
+    <ul id="transactions"></ul>
+    
+    <form id="transactionForm">
+      <input type="number" id="amount" placeholder="Сумма" required>
+      <select id="type" required>
+        <option value="income">Доход</option>
+        <option value="expense">Расход</option>
+      </select>
+      <button type="submit">Добавить</button>
+    </form>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
+

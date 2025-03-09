@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+pip-log.txt
+pip-output.txt
+
+# Package data
+*.egg-info/
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile

@@ -1,0 +1,18 @@
+{
+  "name": "yuomoney-devops",
+  "version": "1.0.0",
+  "description": "## Описание Это приложение для учета доходов и расходов, которое позволяет пользователям отслеживать свои финансовые операции через веб-интерфейс.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
